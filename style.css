@@ -1,6 +1,5 @@
 *
 {
-    
     margin:0;
     padding:0;
     box-sizing: border-box;
@@ -8,7 +7,6 @@
 }
 .clearfix
 {
-    
     content: "";
     display: table;
     clear: both;
@@ -27,11 +25,12 @@ body
 }
 
 .wrapper
-{
+{   
+    border-radius: 25px ;
+    border: 2px violet solid;
     width:1000px;
-   
     top:50%;
-    left:50%;
+    left:40%;
     position: absolute;
     transform: translate(-50%,-50%);
     background-color: #fff;
@@ -45,8 +44,6 @@ body
     float:left;
     height:500px;
     padding: 100px;
-    
-    
 }
 .player-name
 {
@@ -69,8 +66,8 @@ body
     margin-bottom: 130px;       
 }
 
-.active { background-color: #f7f7f7; }
-.active .player-name { font-weight:300}
+.active {  background: #ccc ;  }
+.active .player-name { font-weight:300 ; font-family: "helvetica" ; color : #ff4d4d ; text-shadow: 1px 1px }
 
 .active .player-name::after
 {
@@ -110,7 +107,7 @@ button
     width: 200px;
     left:50%;
     transform: translateX(-50%);
-    color:#555;
+    color: #443b3b;
     background: none;
     border: none;
     font-family:Lato;
@@ -121,9 +118,9 @@ button
     transform: background-color 0.3s,color 0.3s;
     
 }
-button:hover{font-weight: 600;}
+button:hover{
+    font-weight: 800; font-size:18px , font-family : "helvetica" ;}
 button:hover i {margin-right: 20px;}
-
 button:focus{
     outline: none;
 }
@@ -143,15 +140,17 @@ i
 .btn-new
 {
     top:45px;
+    background-color:  #42f4a1 ;
 }
 .btn-roll
 {
     top:403px;
-    
+    background-color: #42f4e8 ;
 }
 .btn-hold
 {
     top:467px;
+    background-color: #f49242 ;
 }
 
 
